@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.glassmorphism {
+  background: rgba(243, 244, 246, 0.25);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.dark .glassmorphism {
+  background: rgba(31, 41, 55, 0.25);
+}
